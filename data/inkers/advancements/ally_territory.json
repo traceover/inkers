@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "inkers:ally_territory"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "inkers:ally_territory"
+    }
+}

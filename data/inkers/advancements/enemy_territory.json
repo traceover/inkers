@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "inkers:enemy_territory"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "inkers:enemy_territory"
+    }
+}

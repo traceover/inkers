@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            },
+            "source_entity": {
+                "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "inkers:hit_with_snowball"
+  }
+}

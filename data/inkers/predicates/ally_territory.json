@@ -1,0 +1,101 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "team": "Inkers",
+                        "stepping_on": {
+                            "block": {
+                                "tag": "inkers:blue"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "InkersTeam": 1
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "team": "Inkers",
+                        "stepping_on": {
+                            "block": {
+                                "tag": "inkers:green"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "InkersTeam": 2
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "team": "Inkers",
+                        "stepping_on": {
+                            "block": {
+                                "tag": "inkers:orange"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "InkersTeam": 3
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:all_of",
+            "terms": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "team": "Inkers",
+                        "stepping_on": {
+                            "block": {
+                                "tag": "inkers:purple"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "InkersTeam": 4
+                    }
+                }
+            ]
+        }
+    ]
+}
