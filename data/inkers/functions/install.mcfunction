@@ -1,6 +1,7 @@
 team add Inkers
 
 scoreboard objectives add InkersSneak dummy
+scoreboard objectives add InkersSneaking minecraft.custom:minecraft.crouch_one_cm
 scoreboard objectives add InkersSquid dummy
 scoreboard objectives add InkersTeam dummy
 
